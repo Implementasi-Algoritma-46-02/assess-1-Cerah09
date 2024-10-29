@@ -10,19 +10,19 @@ public class Soal04 {
 
 		int tunjangan = 0;
 		switch (kodePosisi) {
-			case "MGR" : tunjangan = 1000000; break;
-			case "STF" : tunjangan = 500000; break;
-			case "TCH" : tunjangan = 750000; break;
-			case "DRV" : tunjangan = 350000; break;
+			case "DES" : tunjangan = 600000; break;
+			case "PRG" : tunjangan = 1200000; break;
+			case "WRT" : tunjangan = 400000; break;
+			case "MKT" : tunjangan = 500000; break;
 			default: break;
 		}
 		double bonus = 0;
-		double gaji = jumlahJam * 50000;
+		double gaji = jumlahJam * 30000;
 		double totalGaji = gaji + tunjangan; 
-		if (jumlahJam > 160 && jumlahJam <= 170) {
-			bonus = totalGaji * 0.05;
+		if (jumlahJam > 160 && jumlahJam <= 169) {
+			bonus = totalGaji * 0.5;
 		} else if (jumlahJam > 170) {
-			bonus = totalGaji * 0.07;
+			bonus = totalGaji * 0.7;
 		} 
 		totalGaji += bonus;
 		System.out.println(totalGaji);
