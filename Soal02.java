@@ -13,14 +13,14 @@ public class Soal02 {
 		String predikat = "";
 
 		if (nilaiIPK >= 2.76 && nilaiIPK <= 3.00) {
-			predikat = "Memuaskan";
+			predikat = "Tidak Cumlaude";
 		} else if (nilaiIPK >= 3.01 && nilaiIPK <= 3.50) {
-			predikat = "Sangat Memuaskan";
+			predikat = "Cumlaude";
 		} else {
 			if (masaStudi <= 6 && nilaiEPRT >= 450 && suratSKI.equalsIgnoreCase("ada")) {
 				predikat = "Cumlaude";
 			} else {
-				predikat = "Sangat Memuaskan";
+				predikat = "Tidak Cumlaude";
 			}
 		}	System.out.println(predikat);
 	}
