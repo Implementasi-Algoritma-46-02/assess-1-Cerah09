@@ -1,8 +1,8 @@
 ## Identitas
 
-Nama: 
+Nama: Josua Natanael Panjaitan
 
-NIM : 
+NIM : 607062330056
 
 ## Instruksi
 
